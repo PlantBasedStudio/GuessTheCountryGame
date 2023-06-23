@@ -1,0 +1,69 @@
+#nomPays{
+    background-color: aquamarine;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 63px;
+    vertical-align: top;
+}
+
+#CardList{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.Card{
+    width: 25%;
+    margin: 2px;
+    height: 100%;
+    background-color: bisque;
+    text-align: center;
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+header{
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    background-color: brown;
+    width: 90dvw;
+    height: 90dvh;
+    margin: 0 auto;
+    color: white;
+    font-size: larger;
+    flex-direction: column;
+    text-align: center;
+    .theImageToGuess{
+        margin: 0 auto;
+    }
+}
+
+.panel{
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    input, button{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.greenText{
+    color: green;
+}
+
+.redText{
+    color: red;
+}
